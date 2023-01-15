@@ -260,6 +260,8 @@ border-radius: 5px;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
+    top: auto;
+    bottom: auto;
     width: 50%;
 }
 /* -----------------------------------------------------
@@ -304,7 +306,7 @@ border-radius: 5px;
     .banner{
         width:80%;
     }
-    .new-architects,.sponsor-description,.sponsor-details,.sponsor-icon,.footer{
+    .new-architects,.sponsor-description,.sponsor-details,.sponsor-icon{
         display: inline;
         text-align:left;
     }
@@ -312,7 +314,9 @@ border-radius: 5px;
         display:grid;
         grid-template-columns:1fr 
     }
+  
     .footer{
-        margin-top: auto;
+        margin-top:650px ;
+        margin-left:0px;
     }
 }
