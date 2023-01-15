@@ -251,6 +251,7 @@ border-radius: 5px;
     color: #727272; 
 }
 .sponsor-icon{
+    height: 40px;
     display: flex;
     gap: 100px;
     filter:grayscale(100%);
@@ -258,4 +259,42 @@ border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+/* -----------------------------------------------------
+                     Footer
+-------------------------------------------------------- */
+footer{
+    background: #FFF4E7;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 1200px;
+    height: 60px;
+}
+.footer-text{
+    color: #424242;
+    font-size: 14px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 600px;
+   padding: 2%;
+}
+
+/*--------- Media Query----------- */
+@media only screen and (max-width:688px) {
+    .g3-architects , .contacts,.banner{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr);
+        display: inline;
+        text-align:left;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .new-architects{
+        display: inline;
+        text-align:left;
+    }
+    
 }
