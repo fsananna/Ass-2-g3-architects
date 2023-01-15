@@ -53,7 +53,7 @@ color: #727272;
     font-weight: 600px;
 }
 .banner{
-    width: 1340px;
+    width:90%;
     height: 600px;
     margin-top: 40px;
 }
@@ -230,6 +230,7 @@ border-radius: 8px;
     margin-left: 120px;
 }
 .award , .project , .client ,.email{
+position: relative;
 text-align: center;
 border: 1px solid #FF900E;
 padding: 20px;
@@ -251,6 +252,7 @@ border-radius: 5px;
     color: #727272; 
 }
 .sponsor-icon{
+    position: relative;
     height: 40px;
     display: flex;
     gap: 100px;
@@ -263,7 +265,8 @@ border-radius: 5px;
 /* -----------------------------------------------------
                      Footer
 -------------------------------------------------------- */
-footer{
+.footer{
+    position: relative;
     background: #FFF4E7;
     text-align:center;
     margin-left: auto;
@@ -283,7 +286,7 @@ footer{
 
 /*--------- Media Query----------- */
 @media only screen and (max-width:688px) {
-    .g3-architects , .contacts,.banner{
+    .g3-architects , .contacts {
         display:grid;
         grid-template-columns:repeat(1, 1fr);
         display: inline;
@@ -292,9 +295,24 @@ footer{
         width: 100%;
         height: 100%;
     }
-    .new-architects{
+    .teams{
+        order: 2;
+    }
+    .quick-list{
+        order: 1;
+    }
+    .banner{
+        width:80%;
+    }
+    .new-architects,.sponsor-description,.sponsor-details,.sponsor-icon,.footer{
         display: inline;
         text-align:left;
     }
-    
+  .features,.teams,.quick-list,.love-enjoy,.some-facts-details ,.some-facts-icon,.sponsor-description,.sponsor-details,.sponsor-icon{
+        display:grid;
+        grid-template-columns:1fr 
+    }
+    .footer{
+        margin-top: auto;
+    }
 }
