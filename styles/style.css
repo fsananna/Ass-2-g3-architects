@@ -24,6 +24,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-right: 80px;
+    column-gap: 20px;
 
 }
 /* <!-- Brand New Group of Architects --> */
@@ -134,31 +135,43 @@ color: #727272;
 ------------------------------------------------------- */
 .love-enjoy{
     margin-top:5px;
+    margin-left: 85px;
+    margin-right: -120px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+
+
 }
 .love-enjoy-head{
     font-family: 'Work Sans', sans-serif;
     margin-top: 5%;
-    height:140px ;
+    padding: 12px;
+    height:120px ;
     width:700px;
     font-weight: 700;
     font-size: 32px; 
     line-height: 10%;
     background-color: #FFFFFF;
-    box-shadow: 140px 700px#727272;
-    box-shadow: 5px 5px 5px #888888;
+    box-shadow: 4px 4px 4px #ffffff90;
+    border-left:5px solid  #FF900E; 
+   
 
 }
 .love-enjoy-description{
-    height: 171px;
+    height: 41px;
     width: 586px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 50;
     font-size: 12px;
     color: #727272;
     line-height: 18px;
-  
+   
+}
+.love-enjoy-detail-1 ,.love-enjoy-detail-2 ,.love-enjoy-detail-3 ,.love-enjoy-detail-4 {
+    box-shadow: 4px 4px 4px #ffffff90;
+    height:150px ;
+    width:700px;
+    padding: 12px;
 }
 .head{
     font-family: 'Work Sans', sans-serif;
@@ -171,6 +184,7 @@ color: #727272;
     font-size: 12px;
     color: #727272;
     line-height: 18px;
+    
 }
 .love-img{
     margin-top: 8%;
@@ -187,4 +201,12 @@ position: absolute;
 top: 90%;
 left: 10%;
 transform: translate(-50%,-50%);
+}
+.love-enjoy-btn{
+position: relative;
+top:-50px;
+width: 200px;
+height: 100px;
+background: #FF900E;
+border-radius: 8px;
 }
