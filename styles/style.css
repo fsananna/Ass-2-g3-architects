@@ -237,6 +237,23 @@ padding: 20px;
 height: 150px;
 width: 160px;
 border-radius: 5px;
+cursor: pointer;
+}
+.award:hover , .project:hover , .client:hover ,.email:hover{
+    text-align: center;
+    border: 3px solid blue;
+    padding: 20px;
+    height: 150px;
+    width: 160px;
+    border-radius: 5px;
+    }
+.icon-head{
+    font-weight: 600;
+    font-size: 25px;
+}
+.icon-desc{
+    color: #727272;
+    font-size: 16px;
 }
 /* -----------------------------------------------------
                      Our Sponsors
