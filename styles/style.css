@@ -1,0 +1,190 @@
+/*------------- fonts------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+ 
+/* -------------------------------------------------
+            common styles or utilities
+--------------------------------------------------- */
+.container{
+    background: rgba(255, 144, 14, 0.1);
+    position: absolute;
+    width: 1500px;
+    height: 1000px;
+   
+}
+.g3-architects{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    padding-left: 90px;
+}
+.section-title{
+    font-family: 'Work Sans', sans-serif;
+}
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-right: 80px;
+
+}
+/* <!-- Brand New Group of Architects --> */
+.new-architects{
+    display: inline;
+    text-align: center;
+}
+.content-1 , .content-2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 24px;
+    font-family: 'Work Sans', sans-serif;
+}
+.brand-title-1 , .brand-title-2 {
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+.explore-more{
+    margin-top:20px;
+    background-color: #FF900E;
+    width: 140px;
+    height: 44px;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-weight: 600px;
+}
+.banner{
+    width: 1340px;
+    height: 600px;
+    margin-top: 40px;
+}
+
+/* --------------------------------------
+       Features Styles
+-------------------------------------- */
+.features{
+    display: flex;
+}
+.teams{
+    margin-top: 85px;
+    margin-left:90px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:20px;
+    column-gap: 24px ;
+}
+.team-1 , .team-2 ,.team-3 ,.team-4 {
+    width: 292px;
+    height: 292px;
+    border-radius: 8px;
+}
+.quick-list{
+    display: flex;
+    flex-direction: column;
+
+}
+.feature-title{
+    margin-top: 267px;
+    margin-left: 57px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    color: #727272;
+}
+.text-primary{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    color:#131313;
+}
+.text-secondary{
+    margin-top: -45px;
+    margin-left: 57px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    color:#FF900E;
+}
+.quick-article{
+width:500px;
+margin-top:-30px ;
+margin-left:57px ;
+font-family: 'Work Sans', sans-serif;
+font-size: 12px;
+font-weight: 100;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #727272;
+}
+.explore-btn{
+    margin-top:20px;
+    margin-left: 57px;
+    background-color: #FF900E;
+    width: 140px;
+    height: 44px;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-weight: 600px;
+}
+ /* ---------------------------------------------------
+         Features You will love and enjoy STYLES 
+------------------------------------------------------- */
+.love-enjoy{
+    margin-top:5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.love-enjoy-head{
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 5%;
+    height:140px ;
+    width:700px;
+    font-weight: 700;
+    font-size: 32px; 
+    line-height: 10%;
+    background-color: #FFFFFF;
+    box-shadow: 140px 700px#727272;
+    box-shadow: 5px 5px 5px #888888;
+
+}
+.love-enjoy-description{
+    height: 171px;
+    width: 586px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    color: #727272;
+    line-height: 18px;
+  
+}
+.head{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.details{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 50;
+    font-size: 12px;
+    color: #727272;
+    line-height: 18px;
+}
+.love-img{
+    margin-top: 8%;
+    width: 698px;
+    height: 882px;
+}
+.love-enjoy-port{
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+.love-enjoy-port.love-enjoy-btn{
+position: absolute;
+top: 90%;
+left: 10%;
+transform: translate(-50%,-50%);
+}
