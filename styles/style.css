@@ -252,4 +252,10 @@ border-radius: 5px;
 }
 .sponsor-icon{
     display: flex;
+    gap: 100px;
+    filter:grayscale(100%);
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
